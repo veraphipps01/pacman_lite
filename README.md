@@ -2,10 +2,10 @@
 MIT PacMan Assignment
 v1 something is not right with the code
 
-<p3>Next Tech Comments:</p3>
+<h2>Next Tech Comments:</h2>
 
-<p3>Custom TestIncomplete
-Pac-man direction reversed </p3>
+<h3>Custom TestIncomplete
+Pac-man direction reversed </h3>
 
 Test Output
 
@@ -75,7 +75,7 @@ describe ('checkPageBounds()', function () {
 
 
 
-<p3>Code PatternIncomplete</p3>
+<h3>Code PatternIncomplete</h3>
 Add a setInterval call to run every 200 millesecs
 
 Description
