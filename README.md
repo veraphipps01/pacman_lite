@@ -5,8 +5,12 @@
 <p>This project demonstrates the ability to use JavaScript to dynamically display data on a webpage.</p>
 <p>The object moves back and forth as it hits the inside edges of the scree.<p>
   
+### Improvements
+- [ ] Added background
+- [ ] Looped crazy background music (unblock background music in chrome to hear)
+
+  
 ### Future improvements
-- [ ] Add background
 - [ ] Add Y axis and let PacMan move in two dimensions 
 - [ ] Add an additional PacMan on a mouse click
 - [ ] Change direction if two PacMen bump into each other
