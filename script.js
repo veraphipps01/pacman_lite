@@ -16,6 +16,25 @@ var direction = 0;
 // This variable helps determine which PacMan image should be displayed. It flips between values 0 and 1
 var focus = 0;
 
+//adding annoying backgound audio
+
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  if (typeof audio.loop == 'boolean')
+{
+    audio.loop = true;
+}
+else
+{
+    audio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}
+  audio.play();
+});
+
 // This function is called on mouse click. Every time it is called, it updates the PacMan image, position and direction on the screen.
 function Run() {
   let img = document.getElementById('PacMan');
